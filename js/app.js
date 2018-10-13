@@ -112,9 +112,11 @@ class Player {
 
     
      if (this.y < 0) {
+
             setTimeout(() => {
                 this.x = 190;
                 this.y = 385;
+                confirm('You Have Won !')
             }, 800);
         };
   
